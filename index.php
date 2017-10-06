@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>M</title>
     <link href="https://fonts.googleapis.com/css?family=Kanit:800" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="assets/main.css">
   </head>
   <body>
