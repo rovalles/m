@@ -27,9 +27,11 @@ div, body{
 
 ul{
   list-style-type: none;
+  padding-right: 50px;
 }
 
 li{
+  text-align: right;
   height: 90px;
   width: 100%;
 }
