@@ -1,0 +1,46 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-attachment: fixed;
+  background-color: #999;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  font-family: 'Kanit', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  height: 90px;
+  width: 100%;
+}
+
+a{
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  text-decoration: none;
+  display: block
+}
+
+a:hover{
+  background: #000;
+}
