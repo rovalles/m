@@ -27,22 +27,24 @@ div, body{
 
 ul{
   list-style-type: none;
-  padding-right: 50px;
+  padding: 0;
+  margin: 0;
+  padding-right: 30px;
 }
 
 li{
   text-align: right;
-  height: 90px;
   width: 100%;
+  padding-right: 50px;
+  margin: 10px 0;
+}
+
+li:hover{
+  background: #000;
 }
 
 a{
   color: #fff;
   text-shadow: 2px 2px 8px #000;
   text-decoration: none;
-  display: block
-}
-
-a:hover{
-  background: #000;
 }
