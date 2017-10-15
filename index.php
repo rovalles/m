@@ -7,17 +7,17 @@
     <?php
       $json = file_get_contents('./data.json');
       $json = json_decode($json, true);
-      $list = "";
+      $movieList = "";
       $bg = "";
       $count = 1;
-      $wallpaper = "";
+      $wallpaperList = "";
       foreach( $json as $field => $value ){
-        $list .= "<li><a href='$value' target='_blank'>$field</a></li>";
-        $wallpaper .= ".wallpaper-$count{ background-image: url('/assets/images/$count.jpg')!important;  }\n";
+        $movieList .= "<li><a href='$value' target='_blank'>$field</a></li>";
+        $wallpaperList .= ".wallpaper-$count{ background-image: url('/assets/images/$count.jpg')!important;  }\n";
         $count++;
       }
 
-      echo "<style>$wallpaper</style>";
+      echo "<style>$wallpaperList</style>";
     ?>
     <link href="https://fonts.googleapis.com/css?family=Kanit:800" rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
@@ -26,7 +26,7 @@
   <body>
     <div class="wrapper">
       <ul>
-        <? echo $list; ?>
+        <? echo $movieList; ?>
       </ul>
     </div>
     <script src="assets/main.js"></script>
